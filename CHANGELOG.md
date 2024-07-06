@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.6.0](https://github.com/ublue-os/bazzite/compare/v3.5.1...v3.6.0) (2024-07-06)
+
+
+### Features
+
+* **deck:** Use Deck logo in logo menu by default on Valve hardware ([df41081](https://github.com/ublue-os/bazzite/commit/df41081f93fb00459c9eac42d84d605cca622b3e))
+
+
+### Bug Fixes
+
+* Add patch for color issues in the latest Mesa. ([69be913](https://github.com/ublue-os/bazzite/commit/69be913abe8def28eac6b6ed20bf5cbadf4627fb))
+* **Containerfile:** Correct regex when installing fsync kernel ([b24e44b](https://github.com/ublue-os/bazzite/commit/b24e44be7e5351e48472f5e47ad81d7ac2f79126))
+* **Containerfile:** Remove duplicate overrides for kernel modules ([9cc2c03](https://github.com/ublue-os/bazzite/commit/9cc2c03af4e57177d7edd44b8f3bfc4a993c61d2))
+* **deck:** Add patch to fix some invalid refresh rates (Thanks [@matte](https://github.com/matte)_schwartz) ([3ca09c5](https://github.com/ublue-os/bazzite/commit/3ca09c587dd596d0a9b9be7d60d33a9d82ff5fbb))
+
 ## [3.5.1](https://github.com/ublue-os/bazzite/compare/v3.5.0...v3.5.1) (2024-07-03)
 
 
